@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.c86aee94.css",
-    "main.js": "/static/js/main.1b8d6304.js",
+    "main.js": "/static/js/main.ad48fbe9.js",
     "static/js/453.29a1c07a.chunk.js": "/static/js/453.29a1c07a.chunk.js",
     "static/media/robot1on1.jpg": "/static/media/robot1on1.848c983d2d9dc1123b86.jpg",
     "static/media/test.jpg": "/static/media/test.57f4daecc72bab1b6c76.jpg",
+    "static/media/dylan_headshot.jpg": "/static/media/dylan_headshot.fe059c0e1d4035f35c6e.jpg",
     "static/media/robocup_logo_noBG.svg": "/static/media/robocup_logo_noBG.45f212db692661c7065a8412b4a0d614.svg",
     "static/media/test3.jpeg": "/static/media/test3.d3b6e1619f1619ed0514.jpeg",
     "static/media/ali_headshoot.jpg": "/static/media/ali_headshoot.38977409251c16595596.jpg",
     "static/media/testbanner.jpg": "/static/media/testbanner.27ee7f1b66b3b26f0a41.jpg",
     "index.html": "/index.html",
     "main.c86aee94.css.map": "/static/css/main.c86aee94.css.map",
-    "main.1b8d6304.js.map": "/static/js/main.1b8d6304.js.map",
+    "main.ad48fbe9.js.map": "/static/js/main.ad48fbe9.js.map",
     "453.29a1c07a.chunk.js.map": "/static/js/453.29a1c07a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c86aee94.css",
-    "static/js/main.1b8d6304.js"
+    "static/js/main.ad48fbe9.js"
   ]
 }
