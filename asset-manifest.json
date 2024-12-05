@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f31c1d3.css",
-    "main.js": "/static/js/main.23b274d6.js",
+    "main.css": "/static/css/main.2dfa02be.css",
+    "main.js": "/static/js/main.f49fde6b.js",
     "static/js/453.29a1c07a.chunk.js": "/static/js/453.29a1c07a.chunk.js",
     "static/media/robot1on1.jpg": "/static/media/robot1on1.848c983d2d9dc1123b86.jpg",
     "static/media/test.jpg": "/static/media/test.57f4daecc72bab1b6c76.jpg",
     "static/media/dylan_headshot.jpg": "/static/media/dylan_headshot.fe059c0e1d4035f35c6e.jpg",
     "static/media/robocupstand.png": "/static/media/robocupstand.b0c4e39e216f3705ef13.png",
     "static/media/robocup_logo_noBG.svg": "/static/media/robocup_logo_noBG.e231fd312912a07ab4077e0eac13f093.svg",
-    "static/media/camron_headshot.jpg": "/static/media/camron_headshot.3f0c0f671cc6f4399fde.jpg",
     "static/media/test3.jpeg": "/static/media/test3.d3b6e1619f1619ed0514.jpeg",
     "static/media/ali_headshoot.jpg": "/static/media/ali_headshoot.bdba3c8e6bc6079de66b.jpg",
     "static/media/robocupstandstill.jpg": "/static/media/robocupstandstill.dec11c4682ef4ca1ffb6.jpg",
+    "static/media/camron_headshot.png": "/static/media/camron_headshot.94ce906f0c3b04b2a51e.png",
     "static/media/david_headshot.png": "/static/media/david_headshot.69875d1bf50ad066b42e.png",
     "static/media/robocup3field.jpg": "/static/media/robocup3field.32eb63c27e33e903927d.jpg",
     "static/media/robocupball1v1.jpg": "/static/media/robocupball1v1.ba61716752ffb3accb48.jpg",
@@ -20,12 +20,12 @@
     "static/media/ernest_headshot.jpg": "/static/media/ernest_headshot.80d5715041c1d6af8434.jpg",
     "static/media/karthi_headshot.jpg": "/static/media/karthi_headshot.dad8ac5dcb250e0efab6.jpg",
     "index.html": "/index.html",
-    "main.0f31c1d3.css.map": "/static/css/main.0f31c1d3.css.map",
-    "main.23b274d6.js.map": "/static/js/main.23b274d6.js.map",
+    "main.2dfa02be.css.map": "/static/css/main.2dfa02be.css.map",
+    "main.f49fde6b.js.map": "/static/js/main.f49fde6b.js.map",
     "453.29a1c07a.chunk.js.map": "/static/js/453.29a1c07a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f31c1d3.css",
-    "static/js/main.23b274d6.js"
+    "static/css/main.2dfa02be.css",
+    "static/js/main.f49fde6b.js"
   ]
 }
