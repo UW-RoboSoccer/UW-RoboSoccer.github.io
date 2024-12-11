@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.802ef5f5.css",
-    "main.js": "/static/js/main.4a69fcab.js",
+    "main.css": "/static/css/main.6a9edd11.css",
+    "main.js": "/static/js/main.a3aed570.js",
     "static/js/453.29a1c07a.chunk.js": "/static/js/453.29a1c07a.chunk.js",
     "static/media/robot1on1.jpg": "/static/media/robot1on1.848c983d2d9dc1123b86.jpg",
     "static/media/test.jpg": "/static/media/test.57f4daecc72bab1b6c76.jpg",
@@ -17,15 +17,16 @@
     "static/media/robocupball1v1.jpg": "/static/media/robocupball1v1.ba61716752ffb3accb48.jpg",
     "static/media/ethan_headshot.jpg": "/static/media/ethan_headshot.b6e000f204bed3d133f1.jpg",
     "static/media/testbanner.jpg": "/static/media/testbanner.27ee7f1b66b3b26f0a41.jpg",
+    "static/media/uwSymbol.png": "/static/media/uwSymbol.6ab4dfcef696cfca3dce.png",
     "static/media/ernest_headshot.jpg": "/static/media/ernest_headshot.80d5715041c1d6af8434.jpg",
     "static/media/karthi_headshot.jpg": "/static/media/karthi_headshot.dad8ac5dcb250e0efab6.jpg",
     "index.html": "/index.html",
-    "main.802ef5f5.css.map": "/static/css/main.802ef5f5.css.map",
-    "main.4a69fcab.js.map": "/static/js/main.4a69fcab.js.map",
+    "main.6a9edd11.css.map": "/static/css/main.6a9edd11.css.map",
+    "main.a3aed570.js.map": "/static/js/main.a3aed570.js.map",
     "453.29a1c07a.chunk.js.map": "/static/js/453.29a1c07a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.802ef5f5.css",
-    "static/js/main.4a69fcab.js"
+    "static/css/main.6a9edd11.css",
+    "static/js/main.a3aed570.js"
   ]
 }
