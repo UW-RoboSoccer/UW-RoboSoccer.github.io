@@ -10,11 +10,11 @@ const Navbar = () => {
   return (
     <nav className="navbar" style={{ backgroundColor: "#2B2C59", color: "white", padding: "10px"}}>
       
-      <Link to="../pages/Home"> <img src={uwrsLogo} className="uwrs" /></Link>
-      <a href="https://www.linkedin.com/company/uw-robosoccer/"> <img src={LinkedInlogo} className="IN" /></a>
-      <a href="https://www.instagram.com/uwrobosoccer/"> <img src={Instagramlogo} className="IG" /></a>
-      <a href="https://www.youtube.com/@uwrobosoccer"> <img src={YouTubelogo} className="YT" /></a>
-      <a href="https://github.com/UW-RoboSoccer"> <img src={GitHublogo} className="GH" /></a>
+      <Link to="../"> <img src={uwrsLogo} className="uwrs" /></Link>
+      <a href="https://www.linkedin.com/company/uw-robosoccer/" target="_blank"> <img src={LinkedInlogo} className="IN" /></a>
+      <a href="https://www.instagram.com/uwrobosoccer/" target="_blank"> <img src={Instagramlogo} className="IG" /></a>
+      <a href="https://www.youtube.com/@uwrobosoccer" target="_blank"> <img src={YouTubelogo} className="YT" /></a>
+      <a href="https://github.com/UW-RoboSoccer" target="_blank"> <img src={GitHublogo} className="GH" /></a>
       <div className="links">
         <ul>
           <CustomLink to="../pages/Join">Join</CustomLink>
