@@ -1,0 +1,132 @@
+.blog-wrapper{
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-box{
+    display: block;
+    text-align: center;
+    position: relative;
+    width: 866px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #5E5C5C;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: scroll;
+}
+
+.blog-box h1{
+    display: flex;
+    width: 578px;
+    height: 108px;
+    flex-shrink: 0;
+    font-family: "Jersey 25";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #DEBD2B 0%, #D9D4C0 50.5%, #DEBD2B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;     
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.blog1{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.image12{
+    width: 350px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog1 h2{
+    width: 288.424px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blog1 p{
+    width: 299px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.blog2{
+    display: block;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.image13{
+    margin-top: 30px;
+    width: 350px;
+    height: 215px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog2 h3{
+    width: 288.424px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blog2 p{
+    width: 299px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

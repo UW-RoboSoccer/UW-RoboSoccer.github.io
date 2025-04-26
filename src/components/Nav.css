@@ -1,0 +1,125 @@
+*{
+    margin: 4px;
+    padding: 1px;
+    font-family: inter;
+    font-size: 24px;
+    overflow-x: hidden;
+}
+.navbar {
+    height: 79px;
+    width: 100%;
+    flex-shrink: 0;
+    background: #1E1E1E;
+    padding: 2px 2px;
+    flex-wrap: wrap;
+    align-content: center;
+    display: flex;
+    position: fixed;
+    top: 0px; 
+    z-index: 999;
+    box-sizing: border-box;
+    justify-content: space-between; 
+    overflow-x: hidden;
+  }
+
+.left-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.navbar a img{
+    vertical-align: middle;
+}
+
+.uwrs{
+    height: 55px;
+    width: 55px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    position: relative;
+    margin: 24px 5px;
+}
+
+.uwrs:hover{
+    filter: drop-shadow(1px 1px 1em #DEBD2B);
+}
+
+
+.IN{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    align-self: center;
+    position: relative;
+    margin: 24px 5px;
+}
+
+.IN:hover{
+    filter: drop-shadow(1px 1px 1em #DEBD2B);
+}
+
+.IG{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    position: relative;
+    margin: 24px 5px;
+}
+.IG:hover{
+    filter: drop-shadow(1px 1px 1em #DEBD2B);
+}
+
+.YT{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    align-self: center;
+    margin:24px 5px;
+}
+.YT:hover{
+    filter: drop-shadow(1px 1px 1em #DEBD2B);
+}
+
+.GH{
+    width: 54px;
+    height: 54px;
+    flex-shrink: 0;
+    align-self: center;
+    margin: 24px 5px;
+}
+
+.GH:hover{
+    filter: drop-shadow(1px 1px 1em #DEBD2B);
+}
+
+.links ul{
+    list-style: none;
+    gap: 20px;
+    display:flex;
+    padding: 24px;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.links ul li{
+    display: inline-block;
+}
+
+.links ul li a{
+    color: #DEBD2B;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.links ul li a:hover{
+    color: #FFFFFF
+}

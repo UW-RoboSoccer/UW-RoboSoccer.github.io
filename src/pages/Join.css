@@ -1,0 +1,360 @@
+.join-wrapper {
+    padding-top: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+.part3 {
+    display: block;
+    gap: 20px;
+    text-align: center;
+}
+
+.part3 h1{
+    display: flex;
+    width: 599px;
+    height: 90px;
+    text-align: center;
+    flex-shrink: 0;
+    font-family: "Jersey 25";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background: linear-gradient(90deg, #DEBD2B 0%, #D9D4C0 50.5%, #DEBD2B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.part3 h2{
+    display:flex;
+    width: 301px;
+    height: 42px;
+    flex-shrink: 0;
+    color: #DEC96B;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.part3 a{
+    display: flex;
+    width: 178px;
+    height: 28px;
+    flex-shrink: 0;
+    text-align: center;
+    color: black;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px 10px;
+    background-color: #DEBD2B;
+    border-radius: 10px;
+    border: 4px solid #DEC96B;
+    text-decoration: none;
+}
+
+.part3 a:hover{
+    background-color: #1E1E1E;
+    color: #DEBD2B;
+
+}
+
+.part3 p1{
+    display: flex;
+    width: 590px;
+    height: 133px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.part3 h3{
+    width: 200px;
+    height: 69px;
+    text-align: center;
+    flex-shrink: 0;
+    color: #DEC96B;
+    font-family: "Jersey 10";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subp1{
+    display:inline-flex;
+    gap: 60px;
+    margin-left: 103px;
+    margin-right: auto;
+}
+
+.para1{
+    display: block;
+}
+
+.subp1 h4{
+    width: 288.424px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #D9D4C0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow-y: hidden;
+    margin-top: 70px;
+}
+
+.subp1 p4{
+    display: block;
+    width: 299px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image3{
+    width: 314px;
+    height: 157px;
+    flex-shrink: 0;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.part2{
+    display: block;
+}
+
+.subp1 h5{
+    display: block;
+    width: 367px;
+    height: 59px;
+    flex-shrink: 0;
+    color: #D9D4C0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 70px;
+    overflow-y: hidden;
+}
+
+.subp1 p5{
+    display: block;
+    width: 382px;
+    height: 126px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.subp2{
+    display:inline-flex;
+    gap: 50px;
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.para3{
+    display: block;
+}
+
+.subp2 h6{
+    display: flex;
+    width: 359px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #D9D4C0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    overflow-y: hidden;
+    margin-top: 70px;
+}
+
+.subp2 p6{
+    display: block;
+    width: 398px;
+    height: 153px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px;
+}
+
+.image4{
+    width: 264.165px;
+    height: 176px;
+    flex-shrink: 0;
+    aspect-ratio: 264.17/176.00;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.part4{
+    display: block;
+}
+
+.subp2 h7{
+    display: block;
+    width: 397px;
+    height: 82px;
+    flex-shrink: 0;
+    color: #D9D4C0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 70px;
+    overflow-y: hidden;
+}
+
+.subp2 p7{
+    display: block;
+    width: 398px;
+    height: 135px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.part5{
+    text-align: center;
+}
+
+.part5 h8{
+    display: flex;
+    width: 178px;
+    height: 69px;
+    flex-shrink: 0;
+    color: #DEC96B;
+    font-family: "Jersey 10";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.part5 p8{
+    display: flex;
+    width: 1176px;
+    height: 85px;
+    flex-shrink: 0;
+    color: #ACAAA0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.buttons button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1E1E1E;
+    padding: 15px 32px;
+    border-color: #ACAAA0;
+    color: #DEBD2B;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px dashed #FFF;
+}
+
+.buttons button:active{
+    border: 2px dashed #DEC96B;
+    transform: translateY(4px);
+}
+
+.buttons .selected {
+    background-color: #DEBD2B;
+    color: #1E1E1E;
+    border: 2px dashed #ACAAA0;
+}
+
+.info-box {
+    margin-top: 25px;
+    padding: 20px;
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
