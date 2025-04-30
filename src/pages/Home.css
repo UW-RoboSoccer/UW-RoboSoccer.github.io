@@ -2,23 +2,22 @@
     padding-top: 0%;
     text-align: center;
     align-items: center;
-    background-color: #2B2C59;
+    overflow-x: hidden;
   }
 
   .part1{
     text-align: center;
-    position: absolute;
-    top: 97px;
-    right: 0px;
-    left: 0px;
+    position: static;
+    padding-right: 0px;
+    padding-left: 0px;
     width: 100%;
     height: 884px;
     flex-shrink: 0;
     background-color: #1E1E1E;
     box-sizing: border-box;
     margin: 0px 0px 0px;
-    padding-top: 20px;
-    overflow-x:auto;
+    padding-top: 90px;
+    overflow-x:hidden;
     overflow-y: hidden;
   }
   .home-wrapper h1{
@@ -36,6 +35,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .home-wrapper h2{
@@ -53,6 +53,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
   
   .robo-logo {
@@ -68,6 +69,7 @@
     aspect-ratio: 1013.00/1519.50;
     margin-left: auto;
     margin-right: auto;
+    overflow-x: hidden;
   }
 
   .robo-logo:hover {
@@ -84,11 +86,11 @@
   
   .part2 {
     width: 100%;
-    height: 2051px;
+    height: 1800px;
     flex-shrink: 0;
     box-sizing: border-box;
     background-color: #1E1E1E;
-    position:absolute;
+    position:static;
     top: 982px;
     right: 0px;
     left: 0px;

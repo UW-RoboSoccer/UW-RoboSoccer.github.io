@@ -5,9 +5,12 @@ import Join from "./pages/Join";
 import Sponsors from "./pages/Sponsors";
 import Blog from "./pages/Blog";
 import Team from "./pages/Team";
+import Footer from "./components/Footer";
+import "./App.css"; 
+
 const App = () => {
   return (
-    <>
+    <div className="app-wrapper" style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <Navbar />
       <div className="container">
         <Routes>
@@ -18,7 +21,8 @@ const App = () => {
           <Route path="/team" element={<Team />} />
         </Routes>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 
