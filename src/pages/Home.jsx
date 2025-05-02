@@ -1,3 +1,4 @@
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import robologo from "../assets/robo.png";
 import "./Home.css"
 import "@fontsource/jersey-25";
@@ -34,6 +35,9 @@ const Home = () => {
         <div className="blog-part">
           <p>blog post region</p>
         </div>
+        <CustomLink className="seemore" to="../Blog" onClick={() => setIsOpen(false)}>
+        See more
+        </CustomLink>
       </div>
     </div>
   );
@@ -41,4 +45,15 @@ const Home = () => {
   
 export default Home;
   
-  
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}

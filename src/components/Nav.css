@@ -30,8 +30,7 @@
     align-items: center;
     flex-wrap: nowrap;
     display: flex;
-    justify-content: space-between; /* Push left and right sections apart */
-    align-items: center;
+    margin-top: 0.5rem;
     width: 100%;
 }
 .left-icons {

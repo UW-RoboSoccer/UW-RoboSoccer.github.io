@@ -90,7 +90,7 @@
   
   .part2 {
     width: 100%;
-    height: 1750px;
+    height: 1650px;
     flex-shrink: 0;
     box-sizing: border-box;
     background-color: #1E1E1E;
@@ -277,3 +277,33 @@
     margin-right: auto;
     overflow-y: scroll;
   }
+  
+ .seemore{
+  color: #1E1E1E;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  width: min(20vw, 9rem);
+  height: auto;
+  flex-shrink: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: clamp(0.1rem, calc(0.2vw + 1rem), 2rem);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6px 10px;
+  background-color: #DEBD2B;
+  border-radius: 10px;
+  border: 4px solid #DEC96B;
+ }
+
+ .seemore:hover{
+  background-color: #1E1E1E;
+  color: #DEBD2B;
+ }

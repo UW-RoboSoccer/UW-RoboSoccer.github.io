@@ -7,6 +7,9 @@ import { useState } from "react";
 
 const Join = () => {
     const [selectedRole, setSelectedRole] = useState(null);
+    const toggleRole = (role) => {
+        setSelectedRole(prev => (prev === role ? null : role));
+    };
     return (
         <div className="join-wrapper">
             <div className="part3">
@@ -45,15 +48,15 @@ const Join = () => {
                 <p>The RoboCup team is looking for University of Waterloo students to represent the University of Waterloo in the RoboCup competition. We welcome individuals who are passionate about design and technology. Click on the buttons below to learn more about the application process of each subteam</p>
             </div>
             <div className="buttons">
-                <button onClick={() => setSelectedRole("software")}>Software</button>
-                <button onClick={() => setSelectedRole("controls")}>Controls</button>
-                <button onClick={() => setSelectedRole("mechanical")}>Mechanical</button>
-                <button onClick={() => setSelectedRole("hardware")}>Hardware</button>
+                <button onClick={() => toggleRole("software")}>Software</button>
+                <button onClick={() => toggleRole("controls")}>Controls</button>
+                <button onClick={() => toggleRole("mechanical")}>Mechanical</button>
+                <button onClick={() => toggleRole("hardware")}>Hardware</button>
             </div>
 
             <div className="info-box">
                 {selectedRole === "software" && (
-                    <p>Software engineers build our robots brain—image processing, strategy, and simulation.</p>
+                    <p>Software engineers build our robot's brain—image processing, strategy, and simulation.</p>
                 )}
                 {selectedRole === "controls" && (
                     <p>Controls team develops algorithms to make robots move with precision and speed.</p>
