@@ -8,7 +8,7 @@
     display: block;
     text-align: center;
     position: relative;
-    width: 866px;
+    width: min(100%,866px);
     height: 600px;
     flex-shrink: 0;
     border-radius: 20px;
@@ -20,13 +20,14 @@
     overflow-y: scroll;
 }
 
-.blog-box h1{
+.blog-wrapper h1{
     display: flex;
-    width: 578px;
-    height: 108px;
+    width: auto;
+    justify-content: center;
+    height: auto;
     flex-shrink: 0;
     font-family: "Jersey 25";
-    font-size: 96px;
+    font-size: clamp(0.5rem, calc(11vw + 0.5rem), 20rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -70,12 +71,12 @@
 
 .blog1 p{
     width: 299px;
-    height: 126px;
+    height: auto;
     flex-shrink: 0;
-    color: #1E1E1E;
+    color: #D9D4C0;
     text-align: center;
     font-family: Roboto;
-    font-size: 18px;
+    font-size:clamp(0.5vw, calc(0.5vw + 0.5rem), 1rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -117,12 +118,12 @@
 
 .blog2 p{
     width: 299px;
-    height: 126px;
+    height: auto;
     flex-shrink: 0;
-    color: #1E1E1E;
+    color: #D9D4C0;
     text-align: center;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: clamp(0.5vw, calc(0.5vw + 0.5rem), 1rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;

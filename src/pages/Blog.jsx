@@ -7,8 +7,8 @@ import "@fontsource/roboto";
 const Blog = () => {
     return (
         <div className="blog-wrapper">
+            <h1>ACHIEVEMENTS</h1>
             <div className="blog-box">
-                <h1>ACHIEVEMENTS</h1>
                 <div className="blog1">
                     <img src={image12} alt="Image two" className="image12"/>
                     <h2>First Term Review</h2>

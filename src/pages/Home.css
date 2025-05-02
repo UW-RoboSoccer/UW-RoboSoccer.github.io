@@ -1,5 +1,8 @@
 .home-wrapper {
-    padding-top: 0%;
+    padding: min(1em, 3%);
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
     text-align: center;
     align-items: center;
     overflow-x: hidden;
@@ -11,7 +14,8 @@
     padding-right: 0px;
     padding-left: 0px;
     width: 100%;
-    height: 884px;
+    max-width: 100%;
+    height: 65vw;
     flex-shrink: 0;
     background-color: #1E1E1E;
     box-sizing: border-box;
@@ -22,12 +26,12 @@
   }
   .home-wrapper h1{
     text-align: center;
-    width: 479px;
-    height: 50px;
-    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     color: #DEC96B;
     font-family: "Jersey 10";
-    font-size: 48px;
+    font-size: clamp(0.5rem, calc(2vw + 1rem), 3rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -41,10 +45,10 @@
   .home-wrapper h2{
     text-align: center;
     margin-left: auto;
-    height: 162px;
-    width: auto;
+    height: auto;
+    width: 100%;
     font-family: "Jersey 25";
-    font-size: 175px;
+    font-size: clamp(0.5rem, calc(12vw + 0.5rem), 20rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -52,21 +56,21 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 0rem;
     overflow-y: hidden;
     overflow-x: hidden;
   }
   
   .robo-logo {
     display: flex;
-    height: 1519.5px;
-    width: auto;
+    height: clamp(20rem, calc(10vw+1rem), 40rem);
+    width: 100%;
     position: relative;
     top: 0px;
-    padding-top: 0px;
+    padding-top: 0vw;
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
-    aspect-ratio: 1013.00/1519.50;
     margin-left: auto;
     margin-right: auto;
     overflow-x: hidden;
@@ -86,7 +90,7 @@
   
   .part2 {
     width: 100%;
-    height: 1800px;
+    height: 1750px;
     flex-shrink: 0;
     box-sizing: border-box;
     background-color: #1E1E1E;
@@ -100,83 +104,71 @@
   }
 
   .home-wrapper h3{
-    width: 220px;
-    height: 69px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #DEC96B;
     font-family: "Jersey 10";
-    font-size: 64px;
+    font-size: clamp(0.5rem, calc(6vw + 0.5rem), 4rem);
     font-weight: 400;
-    text-align: center;
+    text-align:center;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   .subpart1{
-    height: 310px;
-    display: flex;               
-    padding: 0px;
+    display: flex;  
+    margin-top: 0vw;             
+    padding: 0.5vw;
     align-items: center;
-    gap: 50px;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
     overflow-y: hidden;
-    position: relative;
-
-  }
-  .home-wrapper h4{
-    width: 260.037px;
-    height: 57.156px;
-    flex-shrink: 0;
-    color: #ACAAA0;
-    font-family: "Roboto";
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 200px;
-    position: relative;
-    top: 90px;
-    text-align: left;
+    align-items: center;
   }
 
-  .home-wrapper p{
+  .subpart1 p{
     display: flex;
-    width: 540px;
-    height: 248px;
+    width: min(540px, 100%);
+    height: auto;
     flex-direction: column;
     justify-content: left;
     flex-shrink: 0;
     color: #ACAAA0;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: clamp(0.5rem, calc(0.5vw + 0.5rem), 2rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 200px;
+    margin-left: auto;
     position: relative;
-    top: 50px;
     text-align: left;
+    overflow-y: visible;
   }
 
   .image1 {
-    width: 437.988px;
-    height: 248px;
+    width: full;
+    height: full;
     flex-shrink: 0;
     aspect-ratio: 437.99/248.00;
     position: relative;
-    margin-right: 200px;
+    margin-right: 9vw;
     margin-left: auto;
+    max-width: 100%;
   }
 
   .home-wrapper h5{
-    width: 400px;
-    height: 69px;
+    width: 100%;
+    height: auto;
     position: relative;
     top: 50px;
     flex-shrink: 0;
     color: #DEC96B;
     font-family: "Jersey 10";
-    font-size: 64px;
+    font-size: clamp(0.5rem, calc(6vw + 0.5rem), 4rem);
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
@@ -186,47 +178,60 @@
   }
   .subpart2{
     display: flex;               
-    padding: 20px;
-    align-items: center;
-    gap: 50px;    
+    padding: 0.5vw;
+    gap: 1rem;    
     margin-top: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    justify-content: center;
   }
   .image2{
-    width: 487.295px;
-    height: 310px;
+    height: full;
     flex-shrink: 0;
     aspect-ratio: 487.29/310.00;
     position: relative;
     top: 20px;
-    margin-left: 200px;
+    margin-left: 9vw;
     margin-right: auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
   }
-  .home-wrapper p2{
+  .subpart2 p{
     display: flex;
-    width: 486px;
-    height: 234px;
+    width: min(486px, 100%);
+    height: auto;
     flex-direction: column;
     justify-content: center;
     flex-shrink: 0;
     text-align: left;
     color: #ACAAA0;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: clamp(0.5rem, calc(0.5vw + 0.5rem), 2rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: relative;
-    margin-right: 200px;
+    margin-right: auto;
     margin-left: auto;
   }
-  
+
+  .subpart3{
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;               
+    padding: 0.5rem;  
+    overflow-y: hidden;
+  }
+
   .home-wrapper h6{
-    width: 230px;
-    height: 69px;
+    width: 100%;
+    height: auto;
     flex-shrink: 0;
     color: #DEC96B;
     font-family: "Jersey 10";
-    font-size: 64px;
+    font-size: clamp(0.5rem, calc(6vw + 0.5rem), 4rem);
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
@@ -236,37 +241,39 @@
     position: relative;
     top: 50px;
   }
-  .home-wrapper p3{
+
+  .subpart3 p{
     display: flex;
-    height: 234px;
+    height: auto;
+    width: 100%;
+    max-width: 40rem;
     flex-shrink: 0;
     color: #ACAAA0;
     text-align: center;
     font-family: "Roboto";
-    font-size: 20px;
+    font-size: clamp(0.5rem, calc(0.5vw + 0.5rem), 2rem);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     position: relative;
-    top: 50px;
-    margin-top: 50px;
-    margin-right: 200px;
-    margin-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
     overflow-y: hidden;
   }
   .blog-part{
     display: flex;
     text-align: center;
     position: relative;
-    width: 1096px;
-    height: 230px;
+    width: auto;
+    max-width: 50rem;
+    height: 7rem;
+    min-height: 3rem;
     flex-shrink: 0;
     border-radius: 20px;
     box-sizing: border-box;
     background-color: #D9D9D9;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     overflow-y: scroll;
   }
-  
